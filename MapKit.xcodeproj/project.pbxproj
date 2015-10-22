@@ -14,6 +14,8 @@
 		C349AF411BD7B5EA0000AD73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C349AF401BD7B5EA0000AD73 /* Images.xcassets */; };
 		C349AF441BD7B5EA0000AD73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C349AF421BD7B5EA0000AD73 /* LaunchScreen.xib */; };
 		C349AF501BD7B5EA0000AD73 /* MapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C349AF4F1BD7B5EA0000AD73 /* MapKitTests.m */; };
+		C3D1EA4A1BD86DA2004E360C /* ResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D1EA481BD86DA2004E360C /* ResultTableViewCell.m */; };
+		C3D1EA4B1BD86DA2004E360C /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D1EA491BD86DA2004E360C /* ResultTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		C349AF491BD7B5EA0000AD73 /* MapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C349AF4E1BD7B5EA0000AD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C349AF4F1BD7B5EA0000AD73 /* MapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKitTests.m; sourceTree = "<group>"; };
+		C3D1EA471BD86DA2004E360C /* ResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewCell.h; sourceTree = "<group>"; };
+		C3D1EA481BD86DA2004E360C /* ResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewCell.m; sourceTree = "<group>"; };
+		C3D1EA491BD86DA2004E360C /* ResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				C349AF381BD7B5EA0000AD73 /* AppDelegate.m */,
 				C349AF3A1BD7B5EA0000AD73 /* ViewController.h */,
 				C349AF3B1BD7B5EA0000AD73 /* ViewController.m */,
+				C3D1EA471BD86DA2004E360C /* ResultTableViewCell.h */,
+				C3D1EA481BD86DA2004E360C /* ResultTableViewCell.m */,
+				C3D1EA491BD86DA2004E360C /* ResultTableViewCell.xib */,
 				C349AF3D1BD7B5EA0000AD73 /* Main.storyboard */,
 				C349AF401BD7B5EA0000AD73 /* Images.xcassets */,
 				C349AF421BD7B5EA0000AD73 /* LaunchScreen.xib */,
@@ -201,6 +209,7 @@
 			files = (
 				C349AF3F1BD7B5EA0000AD73 /* Main.storyboard in Resources */,
 				C349AF441BD7B5EA0000AD73 /* LaunchScreen.xib in Resources */,
+				C3D1EA4B1BD86DA2004E360C /* ResultTableViewCell.xib in Resources */,
 				C349AF411BD7B5EA0000AD73 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +230,7 @@
 			files = (
 				C349AF3C1BD7B5EA0000AD73 /* ViewController.m in Sources */,
 				C349AF391BD7B5EA0000AD73 /* AppDelegate.m in Sources */,
+				C3D1EA4A1BD86DA2004E360C /* ResultTableViewCell.m in Sources */,
 				C349AF361BD7B5EA0000AD73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (MCDSJY34TT)";
 				INFOPLIST_FILE = MapKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (MCDSJY34TT)";
 				INFOPLIST_FILE = MapKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (MCDSJY34TT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (MCDSJY34TT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -416,6 +430,7 @@
 				C349AF551BD7B5EA0000AD73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C349AF561BD7B5EA0000AD73 /* Build configuration list for PBXNativeTarget "MapKitTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				C349AF581BD7B5EA0000AD73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
